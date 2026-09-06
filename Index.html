@@ -1,1 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>15 anos - Susan Maia</title>
 
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #123b70;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 15px;
+}
+
+img {
+  width: 100%;
+  display: block;
+  margin: 0 auto 18px;
+  border-radius: 12px;
+}
+
+.card {
+  background: white;
+  padding: 25px 18px;
+  border-radius: 18px;
+  margin-top: 20px;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.12);
+}
+
+h1 {
+  margin-bottom: 8px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  margin: 8px 0;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  margin-top: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #123b70;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- CONVITE -->
+  <img src="convite1.jpg" alt="Convite de aniversário">
+
+  <!-- MANUAL DO CONVIDADO -->
+  <img src="convite2.jpg" alt="Manual do convidado">
+
+  <!-- CONFIRMAÇÃO -->
+  <div class="card">
+    <h1>💙 Confirme sua presença 💙</h1>
+
+    <p>
+      Susan Maia está esperando você para comemorar
+      seus 15 anos!
+    </p>
+
+    <p>
+      <strong>Sábado, 26 de setembro de 2026<br>
+      às 19:00</strong>
+    </p>
+
+    <form action="https://formsubmit.co/msantos87858@gmail.com" method="POST">
+
+      <input
+        type="text"
+        name="nome"
+        placeholder="Seu nome"
+        required>
+
+      <input
+        type="number"
+        name="acompanhantes"
+        placeholder="Quantidade de acompanhantes"
+        min="0"
+        required>
+
+      <input
+        type="text"
+        name="resposta"
+        placeholder="Ex.: Confirmo minha presença"
+        required>
+
+      <input type="hidden" name="_subject"
+        value="Confirmação - 15 anos Susan Maia">
+
+      <input type="hidden" name="_captcha"
+        value="false">
+
+      <button type="submit">
+        💙 CONFIRMAR PRESENÇA 💙
+      </button>
+
+    </form>
+  </div>
+
+</div>
+
+</body>
+  </html>
